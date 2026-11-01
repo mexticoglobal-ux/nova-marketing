@@ -289,3 +289,16 @@ footer { width: min(var(--max), calc(100% - 44px)); margin: 0 auto; padding: 34p
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Proyectos: PSI Industrial y Casa Glam */
+.project-feature.industrial-feature { background: linear-gradient(140deg, rgba(18,60,104,.24), rgba(37,99,235,.10) 52%, rgba(255,255,255,.03)); }
+.industrial-feature .case-label { color: #6fb6ff; }
+.industrial-canvas { background: radial-gradient(circle at 85% 15%, #dbeafe, transparent 34%), linear-gradient(150deg,#fff,#eaf1f8); }
+.industrial-canvas .preview-logo small { color: #1f6fb8; }
+.industrial-canvas .preview-products div { color: #123c68; box-shadow: 0 10px 26px rgba(18,60,104,.14); }
+.project-feature.glam-feature { background: linear-gradient(140deg, rgba(190,90,140,.20), rgba(120,60,110,.10) 52%, rgba(255,255,255,.03)); }
+.glam-feature .case-label { color: #f2a7c8; }
+.glam-canvas { background: radial-gradient(circle at 85% 15%, #ffe1ee, transparent 34%), linear-gradient(150deg,#fff,#f8edf2); color: #3b1830; }
+.glam-logo { font: 800 2rem Montserrat; letter-spacing: .06em; color: #7a2a5b; }
+.glam-logo small { display: block; color: #c0779c; font-size: .55rem; letter-spacing: .3em; }
+.glam-services div { color: #7a2a5b; box-shadow: 0 10px 26px rgba(122,42,91,.14); }
