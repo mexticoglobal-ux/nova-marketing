@@ -302,3 +302,6 @@ footer { width: min(var(--max), calc(100% - 44px)); margin: 0 auto; padding: 34p
 .glam-logo { font: 800 2rem Montserrat; letter-spacing: .06em; color: #7a2a5b; }
 .glam-logo small { display: block; color: #c0779c; font-size: .55rem; letter-spacing: .3em; }
 .glam-services div { color: #7a2a5b; box-shadow: 0 10px 26px rgba(122,42,91,.14); }
+
+/* Centra la última tarjeta de video cuando queda sola en la fila */
+@media (min-width: 981px) { .showreel-grid > .showreel-card:last-child:nth-child(3n+1) { grid-column: 2; } }
